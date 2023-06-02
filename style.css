@@ -2,12 +2,11 @@ body{
   background-color: rgb(226, 226, 226);
   font-family: arial;
   margin: 0;
-  min-width: 400px;
-  /* background-color: red; */
+  min-width: 800px;
   text-align: center;
 }
 h1#title{
-  font-size: clamp(20px, 4vw, 80px)
+  font-size: clamp(70px, 4vw, 80px)
 }
 .all-team-members{
   display: flex;
@@ -15,55 +14,48 @@ h1#title{
   flex-flow: row wrap;
   align-items: flex-start;
   gap: 2rem;
-
 }
 .member-area{
-  /* background-color: green; */
   --direction: to right;
+  min-width: 400px;
   width: 100%;
   background-image: linear-gradient(var(--direction), rgb(143, 143, 143), rgb(172, 172, 172), rgb(200, 200, 200), rgb(218, 218, 218), transparent);
   display: flex;
   align-items: center;
+  gap: 1rem;
   padding: 1rem;
 }
-/* .member-area[data-member-parity="odd"]{
-} */
-.member-area[data-member-parity="even"]{
-  flex-direction: row-reverse;
-  --direction: to left;
-}
 .member-static{
-  /* background-color: purple; */
+  max-width: max(14vw, 112px);
 }
-
 .member-pfp{
-  /* background-color: greenyellow; */
+  width: clamp(120px, 12vw, 280px);
   background-color: white;
   border-radius: 100%;
-
 }
 .member-name{
-  /* background-color: yellow; */
-
+  font-size: clamp(26px, 2vw, 70px)
 }
 
 .member-dynamic{
-  max-width: 40vw;
-  /* background-color: crimson; */
+  max-width: max(48vw, 384px);
 }
-
 .member-quote{
-  /* background-color: orange; */
-
+  font-size: clamp(26px, 1.4vw, 36px);
 }
 .member-socials{
-  /* background-color: cornflowerblue; */
-
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: .5rem;
 }
 .social-icon{
-  /* background-color: violet; */
-
+  width: clamp(48px, 3.2vw, 90px);
 }
 .social-icon-img{
-  width: 48px;
+  width: 100%;
+}
+[data-member-parity="even"]{
+  flex-direction: row-reverse;
+  --direction: to left;
 }
