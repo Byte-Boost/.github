@@ -1,0 +1,56 @@
+body{
+  font-family: arial;
+  margin: 0;
+  min-width: 400px;
+  background-color: red;
+  text-align: center;
+}
+h1#title{
+  font-size: clamp(20px, 4vw, 80px)
+}
+.all-team-members{
+  background-color: blue;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  gap: 2rem;
+
+}
+.member-area{
+  /* aspect-ratio: 3/2; */
+  background-color: green;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.member-static{
+  background-color: purple;
+}
+
+.member-pfp{
+  background-color: greenyellow;
+  border-radius: 100%;
+
+}
+.member-name{
+  background-color: yellow;
+
+}
+
+.member-dynamic{
+  background-color: crimson;
+}
+
+.member-quote{
+  background-color: orange;
+
+}
+.member-socials{
+  background-color: cornflowerblue;
+
+}
+.social-icon{
+  background-color: violet;
+
+}
