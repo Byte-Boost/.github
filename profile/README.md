@@ -7,6 +7,7 @@ We officially began working as a team on **_March 7th, 2023_**, and have been le
 up until now, we have worked on our first and second API _(Aprendizagem por Projeto Integrado)_, which you can find here: 
 - First semester: [Plataforma Scrum](https://github.com/Byte-Boost/Plataforma-Scrum)
 - Second semester: [Duck](https://github.com/Byte-Boost/Duck)
+- Third semester: [Nebulon](https://github.com/Byte-Boost/Nebulon)
 
 ## Who's in the team?
 <!-- Since our founding, our team has been through quite a few changes, and it will probably continue to do so in the future as well. --> 
