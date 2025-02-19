@@ -8,6 +8,7 @@ up until now, we have worked on our first and second API _(Aprendizagem por Proj
 - First semester: [Plataforma Scrum](https://github.com/Byte-Boost/Plataforma-Scrum)
 - Second semester: [Duck](https://github.com/Byte-Boost/Duck)
 - Third semester: [Nebulon](https://github.com/Byte-Boost/Nebulon)
+- Fourth semester: [WeCollab](https://github.com/Byte-Boost/WeCollab)
 
 ## Who's in the team?
 <!-- Since our founding, our team has been through quite a few changes, and it will probably continue to do so in the future as well. --> 
